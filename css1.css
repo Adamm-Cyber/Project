@@ -11,6 +11,8 @@ body{
     border: solid 2px white;
     box-shadow: 3px 3px 3px rgb(49, 214, 214);
     margin-right: 20px;
+    position: relative;
+    left: 20px;
 }
 
 
@@ -20,8 +22,42 @@ body{
    gap: 60px;
    justify-content: center;
    cursor: pointer;
-   margin-top: -40px;
-   
+   margin-top: -40px; 
+}
+
+#Home:hover{
+    padding: 5px;
+    background-color: rgb(49, 214, 214);
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 5px 5px red;
+}
+
+#about:hover{
+    padding: 5px;
+    background-color: rgb(49, 214, 214);
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 5px 5px red;
+}
+
+#ffeatured:hover{
+    padding: 5px;
+    background-color: rgb(49, 214, 214);
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 5px 5px red;
+}
+
+#aarrivals:hover{
+    padding: 5px;
+    background-color: rgb(49, 214, 214);
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 5px 5px red;
+}
+
+#rreviews:hover{
+    padding: 5px;
+    background-color: rgb(49, 214, 214);
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 5px 5px red;
 }
 
 #logo{
@@ -447,32 +483,14 @@ body{
     box-shadow: 1px 1px 3px 3px rgb(49, 214, 214);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .hed
 {
 text-align: center;
 }
 .men{
 display: flex;
+position: relative;
+left: 10px;
 
 }
 .d1{
@@ -481,12 +499,18 @@ width: 200px;
 height: 450px;
 padding-inline: 20px;
 margin: 30px;
-margin-top: 10px;}
+margin-top: 10px;
+position: relative;
+left: 30px;
+}
+
+
  .img1{
 border: 30px;
 border-radius: 50%;
 height:100px;
 width: 100px;text-align: center;
+
 
 }
 .img2{
