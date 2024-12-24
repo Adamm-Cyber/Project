@@ -1,11 +1,14 @@
-body{
+
+   body{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    overflow-x: hidden;
+    overflow-x: hidden; 
+   }
+
     
 
-}
+
 .main1{
     background-color: white;
     border: solid 2px white;
@@ -26,38 +29,38 @@ body{
 }
 
 #Home:hover{
-    padding: 5px;
+    padding: 2px;
     background-color: rgb(49, 214, 214);
     border-radius: 10px 10px 10px 10px;
-    box-shadow: 1px 1px 5px 5px red;
+    box-shadow: 1px 1px 5px 5px rgb(115, 87, 87);
 }
 
 #about:hover{
-    padding: 5px;
+    padding: 2px;
     background-color: rgb(49, 214, 214);
     border-radius: 10px 10px 10px 10px;
-    box-shadow: 1px 1px 5px 5px red;
+    box-shadow: 1px 1px 5px 5px rgb(115, 87, 87);
 }
 
 #ffeatured:hover{
-    padding: 5px;
+    padding: 2px;
     background-color: rgb(49, 214, 214);
     border-radius: 10px 10px 10px 10px;
-    box-shadow: 1px 1px 5px 5px red;
+    box-shadow: 1px 1px 5px 5px rgb(115, 87, 87);
 }
 
 #aarrivals:hover{
-    padding: 5px;
+    padding: 2px;
     background-color: rgb(49, 214, 214);
     border-radius: 10px 10px 10px 10px;
-    box-shadow: 1px 1px 5px 5px red;
+    box-shadow: 1px 1px 5px 5px rgb(115, 87, 87);
 }
 
 #rreviews:hover{
-    padding: 5px;
+    padding: 2px;
     background-color: rgb(49, 214, 214);
     border-radius: 10px 10px 10px 10px;
-    box-shadow: 1px 1px 5px 5px red;
+    box-shadow: 1px 1px 5px 5px rgb(115, 87, 87);
 }
 
 #logo{
@@ -523,4 +526,18 @@ padding-top: 10px;
 height: 20px ;
 width: 20px;
 display: flexbox;
+}
+
+#Our_Blog{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.imgs{
+    display: flex;
+    gap: 100px;
+    list-style-type: none;
+    margin-top: 40px;
 }
